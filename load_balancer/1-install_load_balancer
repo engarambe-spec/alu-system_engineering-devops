@@ -18,8 +18,8 @@ frontend http_front
 backend http_back
     mode http
     balance roundrobin
-    server 7367-web-01 13.40.44.153:80 check
-    server 7367-web-02 18.133.157.47:80 check
+    server 7367-web-01 52.56.72.29:80 check
+    server 7367-web-02 18.169.157.38:80 check
 CFG
 fi
 service haproxy restart
